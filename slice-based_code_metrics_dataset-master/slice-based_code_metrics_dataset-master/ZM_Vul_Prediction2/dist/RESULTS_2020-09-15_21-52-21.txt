@@ -1,0 +1,35 @@
+Dataset : Z:\project\Deep Learning for Software Vulnerabilities\slice-based_code_metrics_dataset-master\slice-based_code_metrics_dataset-master\Others_Generated_Datasets\Dataset3\Code_Metrics_DDCD.arff
+Balanced data : true
+Cross-Validation :3Folds
+NN Options : -L 0.01 -M 0.01 -N 3000 -V 0 -S 0 -E 20 -H 32,16,8 -batch-size 128
+
+
+Correctly Classified Instances        7126               53.8543 %
+Incorrectly Classified Instances      6106               46.1457 %
+Kappa statistic                          0.0771
+Mean absolute error                      0.4914
+Root mean squared error                  0.4957
+Relative absolute error                 98.2746 %
+Root relative squared error             99.1434 %
+Total Number of Instances            13232     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 2213 4403 |    a = no
+ 1703 4913 |    b = yes
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.334    0.257    0.565      0.334    0.420      0.084    0.550     0.572     no
+                 0.743    0.666    0.527      0.743    0.617      0.084    0.550     0.528     yes
+Weighted Avg.    0.539    0.461    0.546      0.539    0.518      0.084    0.550     0.550     
+
+False Negative Rate : 0.4614570737605804
+False Positive Rate : 0.4614570737605804
+FMeasure : 0.5184946199852983
+AreaUnderROC : 0.5504424618637315
+
+Start Time :2020/09/15 20:57:27
+End Time :2020/09/15 21:15:11

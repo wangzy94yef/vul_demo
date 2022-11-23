@@ -1,0 +1,35 @@
+Dataset : G:\Projects\数据集\NASA MDP漏洞数据集\mdp_classify-master\mdp_classify-master\NASA_MDP_dataset\KC1.arff
+Balanced data : true
+Cross-Validation :10Folds
+NN Options : -L 0.01 -M 0.01 -N 1000 -V 0 -S 0 -E 20 -H 6 -batch-size 128
+
+
+Correctly Classified Instances         451               69.3846 %
+Incorrectly Classified Instances       199               30.6154 %
+Kappa statistic                          0.3877
+Mean absolute error                      0.3785
+Root mean squared error                  0.4384
+Relative absolute error                 75.7    %
+Root relative squared error             87.683  %
+Total Number of Instances              650     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 226  99 |   a = Y
+ 100 225 |   b = N
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.695    0.308    0.693      0.695    0.694      0.388    0.776     0.774     Y
+                 0.692    0.305    0.694      0.692    0.693      0.388    0.776     0.758     N
+Weighted Avg.    0.694    0.306    0.694      0.694    0.694      0.388    0.776     0.766     
+
+False Negative Rate : 0.30615384615384617
+False Positive Rate : 0.30615384615384617
+FMeasure : 0.6938454292199507
+AreaUnderROC : 0.7763266272189349
+
+Start Time :2020/08/29 19:22:21
+End Time :2020/08/29 19:22:22

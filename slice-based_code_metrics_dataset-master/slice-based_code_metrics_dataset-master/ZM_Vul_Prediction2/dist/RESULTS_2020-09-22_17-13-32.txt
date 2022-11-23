@@ -1,0 +1,35 @@
+Dataset : Z:\workzone\dataset\selfbuilt_dataset\@attitude_OoC.arff
+Balanced data : true
+Cross-Validation :3Folds
+NN Options : -L 0.01 -M 0.01 -N 2500 -V 0 -S 0 -E 20 -H 24,12,8 -batch-size 128
+
+
+Correctly Classified Instances       13312               71.4623 %
+Incorrectly Classified Instances      5316               28.5377 %
+Kappa statistic                          0.4292
+Mean absolute error                      0.3747
+Root mean squared error                  0.4331
+Relative absolute error                 74.937  %
+Root relative squared error             86.6178 %
+Total Number of Instances            18628     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 6412 2902 |    a = no
+ 2414 6900 |    b = yes
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.688    0.259    0.726      0.688    0.707      0.430    0.787     0.794     no
+                 0.741    0.312    0.704      0.741    0.722      0.430    0.787     0.761     yes
+Weighted Avg.    0.715    0.285    0.715      0.715    0.714      0.430    0.787     0.777     
+
+False Negative Rate : 0.2853768520506764
+False Positive Rate : 0.2853768520506764
+FMeasure : 0.7144271623856023
+AreaUnderROC : 0.7866559326001633
+
+Start Time :2020/09/22 16:27:34
+End Time :2020/09/22 16:43:26

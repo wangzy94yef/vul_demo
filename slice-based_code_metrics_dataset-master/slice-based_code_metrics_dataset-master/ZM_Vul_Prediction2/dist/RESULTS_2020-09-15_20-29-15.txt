@@ -1,0 +1,35 @@
+Dataset : E:\code\Êý¾Ý¼¯\ARFFTRY\ARFFpre1.arff
+Balanced data : false
+Cross-Validation :3Folds
+NN Options : -L 0.01 -M 0.01 -N 1000 -V 0 -S 0 -E 20 -H 6,2 -batch-size 128
+
+
+Correctly Classified Instances         977               99.4908 %
+Incorrectly Classified Instances         5                0.5092 %
+Kappa statistic                          0     
+Mean absolute error                      0.0124
+Root mean squared error                  0.0712
+Relative absolute error                107.0554 %
+Root relative squared error            100.0255 %
+Total Number of Instances              982     
+
+=== Confusion Matrix ===
+
+   a   b   <-- classified as
+ 977   0 |   a = function
+   5   0 |   b = statement
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    1.000    0.995      1.000    0.997      ?        0.275     0.988     function
+                 0.000    0.000    ?          0.000    ?          ?        0.275     0.004     statement
+Weighted Avg.    0.995    0.995    ?          0.995    ?          ?        0.275     0.983     
+
+False Negative Rate : 0.0050916496945010185
+False Positive Rate : 0.994908350305499
+FMeasure : NaN
+AreaUnderROC : 0.27533265097236437
+
+Start Time :2020/09/15 20:29:09
+End Time :2020/09/15 20:29:10

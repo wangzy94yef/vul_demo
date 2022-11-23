@@ -1,0 +1,35 @@
+Dataset : Z:\workzone\dataset\selfbuilt_dataset\dataset_upgraded_with_Maintain.arff
+Balanced data : true
+Cross-Validation :3Folds
+NN Options : -L 0.01 -M 0.01 -N 2500 -V 0 -S 0 -E 20 -H 6,3,2 -batch-size 128
+
+
+Correctly Classified Instances       13208               70.904  %
+Incorrectly Classified Instances      5420               29.096  %
+Kappa statistic                          0.4181
+Mean absolute error                      0.3876
+Root mean squared error                  0.4384
+Relative absolute error                 77.5147 %
+Root relative squared error             87.6705 %
+Total Number of Instances            18628     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+ 6190 3124 |    a = no
+ 2296 7018 |    b = yes
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.665    0.247    0.729      0.665    0.696      0.420    0.776     0.776     no
+                 0.753    0.335    0.692      0.753    0.721      0.420    0.776     0.748     yes
+Weighted Avg.    0.709    0.291    0.711      0.709    0.708      0.420    0.776     0.762     
+
+False Negative Rate : 0.29095984539403047
+False Positive Rate : 0.29095984539403047
+FMeasure : 0.7084641576729745
+AreaUnderROC : 0.7764997603013586
+
+Start Time :2020/09/21 16:17:56
+End Time :2020/09/21 16:20:28
